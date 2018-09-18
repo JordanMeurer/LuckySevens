@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    font-weight: bold;
+}
+
+label{
+    font-weight: bold;
+}
+
+.inputs{
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.button{
+    margin-top:20px;
+}
+
+.tables{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results{
+    text-align: left;
+    border-collapse:collapse;
+    width: 50%;
+    float: none;
+    display: none;
+}
+
+.results th, td{
+    border: 1.2px solid grey;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style/Dice.css" rel=stylesheet type="text/css"/>
+        <script type="text/javascript" src="scripts/Dice.js"></script>
+        
+        <title>Lucky Sevens</title>
+    </head>
+
+    <body>
+        <h1>Lucky Sevens</h1>
+        <form name="inputs" class="inputs">
+            <label for="startMoney">Start Money: </label>
+            <input type="number" id="startMoney" value="0.00"><br/>
+            <input type="button" name="submit" value="Play" class="button" onclick="rollDice();">
+        </form>
+    </body>
+    <br/><br/>
+    <div class="inputs">
+        <div  class="results" id="results">
+            <h1 style="text-decoration-line: overline">Results</h1>
+            <table class="tables">
+                <tr>
+                    <td>Starting Bet</td>
+                    <td><span id="start"></span></td>
+                </tr>
+                <tr>
+                    <td>Total Rolls Before Going Broke</td>
+                    <td><span id="total"></span></td>
+                </tr>
+                <tr>
+                    <td>Highest Amount Won</td>
+                    <td><span id="highest"></span></td>
+                </tr>
+                <tr>
+                    <td>Roll Count at Highest Amount Won</td>
+                    <td><span id="roll"></span></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</html>
