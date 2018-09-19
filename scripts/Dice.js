@@ -31,8 +31,8 @@ function rollDice(){
         else{
             money--;
         }
-        console.log("number " + rolls + " money " + money + " roll " +(dice1+dice2));
     }
+    //Unhides the results table and sets the values
     unhide.style.display="inline-block";
     document.getElementById("start").innerText = "$" + start_bet;
     document.getElementById("total").innerText = rolls;
