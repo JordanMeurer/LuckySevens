@@ -39,3 +39,10 @@ function rollDice(){
     document.getElementById("highest").innerText = "$" + max_money;
     document.getElementById("roll").innerText = max_money_roll;
 }
+
+function checkSubmit(event){
+    if(event && event.keyCode == 13){
+        rollDice();
+        return false;
+    }
+}
